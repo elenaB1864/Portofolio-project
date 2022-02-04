@@ -19,7 +19,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -31,7 +31,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-family: var(--default-font-family);
@@ -135,13 +135,10 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -149,11 +146,15 @@ footer .social-links a:hover {
   nav a {
     font-size: 14px;
   }
+  .content h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
 }
 .content-container {
   text-align: center;
   padding: 0;
-  padding: 160px 80px;
+  padding: 60px 80px;
 }
 .content h1 {
   font-size: 64px;
